@@ -1,0 +1,31 @@
+{
+  "name": "distinct-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffDemanche/distinct-patterns.git"
+  },
+  "author": "Jeff Demanche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeffDemanche/distinct-patterns/issues"
+  },
+  "homepage": "https://github.com/JeffDemanche/distinct-patterns#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.3",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.6",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  },
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.2.4"
+  }
+}
